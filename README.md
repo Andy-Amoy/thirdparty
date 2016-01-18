@@ -6,7 +6,7 @@
 省却依赖库的编译依赖配置细节，并且全都在linux centos 7测试通过。
 
 # 使用方式
-* 1、在项目源码树root下checkout thirdparty,例如根目录为foo:
+1.在项目源码树root下checkout thirdparty,例如根目录为foo:
 ```
   mkdir foo
   cd foo
@@ -14,14 +14,14 @@
   git clone https://github.com/cangyingzhijia/thirdparty
 ```
 
-* 2、如果blade环境还没有构建好，可以从git clone:
+2.如果blade环境还没有构建好，可以从git clone:
 ```
   git clone https://github.com/cangyingzhijia/builder
   cp builder/blade/BLADE_ROOT.example BLADE_ROOT
   cp builder/blade/CPPLINT.cfg.example CPPLINT.cfg
   builder/blade/install
 ```
-* 3、随后整个工作空间即建立起来，可以进行工作了:
+3.随后整个工作空间即建立起来，可以进行工作了:
 ```
   git clone https://github.com/cangyingzhijia/helloworld
   blade run helloword:
