@@ -1,0 +1,129 @@
+./src/htmlparser/generate_fsm.py ./src/htmlparser/htmlparser_fsm.config > src/htmlparser/htmlparser_fsm.h
+./src/htmlparser/generate_fsm.py ./src/htmlparser/jsparser_fsm.config > src/htmlparser/jsparser_fsm.h
+./src/htmlparser/generate_fsm.py ./src/tests/statemachine_test_fsm.config > src/tests/statemachine_test_fsm.h
+ln -s src/htmlparser/statemachine.cc statemachine.c
+make  all-am
+make[1]: 进入目录“/data/cangkui/dspnew/trunk/thirdparty/ctemplate”
+  CXX      src/base/libctemplate_la-arena.lo
+  CXX      src/libctemplate_la-per_expand_data.lo
+  CXX      src/libctemplate_la-template.lo
+  CXX      src/libctemplate_la-template_annotator.lo
+  CXX      src/libctemplate_la-template_cache.lo
+  CXX      src/libctemplate_la-template_dictionary.lo
+  CXX      src/libctemplate_la-template_modifiers.lo
+  CXX      src/libctemplate_la-template_namelist.lo
+  CXX      src/libctemplate_la-template_pathops.lo
+  CXX      src/libctemplate_la-template_string.lo
+  CXX      src/htmlparser/libctemplate_la-htmlparser.lo
+  CXX      src/htmlparser/libctemplate_la-jsparser.lo
+  CXX      src/htmlparser/libctemplate_la-statemachine.lo
+  CXXLD    libctemplate.la
+  CXX      src/base/libctemplate_nothreads_la-arena.lo
+  CXX      src/libctemplate_nothreads_la-per_expand_data.lo
+  CXX      src/libctemplate_nothreads_la-template.lo
+  CXX      src/libctemplate_nothreads_la-template_annotator.lo
+  CXX      src/libctemplate_nothreads_la-template_cache.lo
+  CXX      src/libctemplate_nothreads_la-template_dictionary.lo
+  CXX      src/libctemplate_nothreads_la-template_modifiers.lo
+  CXX      src/libctemplate_nothreads_la-template_namelist.lo
+  CXX      src/libctemplate_nothreads_la-template_pathops.lo
+  CXX      src/libctemplate_nothreads_la-template_string.lo
+  CXX      src/htmlparser/libctemplate_nothreads_la-htmlparser.lo
+  CXX      src/htmlparser/libctemplate_nothreads_la-jsparser.lo
+  CXX      src/htmlparser/libctemplate_nothreads_la-statemachine.lo
+  CXXLD    libctemplate_nothreads.la
+  CXX      src/base/libctemplate_debug_la-arena.lo
+  CXX      src/libctemplate_debug_la-per_expand_data.lo
+  CXX      src/libctemplate_debug_la-template.lo
+  CXX      src/libctemplate_debug_la-template_annotator.lo
+  CXX      src/libctemplate_debug_la-template_cache.lo
+  CXX      src/libctemplate_debug_la-template_dictionary.lo
+  CXX      src/libctemplate_debug_la-template_modifiers.lo
+  CXX      src/libctemplate_debug_la-template_namelist.lo
+  CXX      src/libctemplate_debug_la-template_pathops.lo
+  CXX      src/libctemplate_debug_la-template_string.lo
+  CXX      src/htmlparser/libctemplate_debug_la-htmlparser.lo
+  CXX      src/htmlparser/libctemplate_debug_la-jsparser.lo
+  CXX      src/htmlparser/libctemplate_debug_la-statemachine.lo
+  CXXLD    libctemplate_debug.la
+  CXX      src/base/libctemplate_nothreads_debug_la-arena.lo
+  CXX      src/libctemplate_nothreads_debug_la-per_expand_data.lo
+  CXX      src/libctemplate_nothreads_debug_la-template.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_annotator.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_cache.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_dictionary.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_modifiers.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_namelist.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_pathops.lo
+  CXX      src/libctemplate_nothreads_debug_la-template_string.lo
+  CXX      src/htmlparser/libctemplate_nothreads_debug_la-htmlparser.lo
+  CXX      src/htmlparser/libctemplate_nothreads_debug_la-jsparser.lo
+  CXX      src/htmlparser/libctemplate_nothreads_debug_la-statemachine.lo
+  CXXLD    libctemplate_nothreads_debug.la
+  CXX      src/tests/libctemplate_testing_la-template_test_util.lo
+  CXXLD    libctemplate_testing.la
+  CXX      src/tests/libctemplate_testing_nothreads_la-template_test_util.lo
+  CXXLD    libctemplate_testing_nothreads.la
+  CXX      src/make_tpl_varnames_h.o
+  CXXLD    make_tpl_varnames_h
+  CXX      src/diff_tpl_auto_escape.o
+  CXXLD    diff_tpl_auto_escape
+  CXX      src/tests/compile_test-compile_test.o
+  CXXLD    compile_test
+  CXX      src/tests/compile_nothreads_test-compile_test.o
+  CXXLD    compile_nothreads_test
+  CXX      src/template_test_util_test-template_dictionary.o
+  CXX      src/tests/template_test_util_test-template_test_util_test.o
+  CXXLD    template_test_util_test
+  CXX      src/template_test_util_nothreads_test-template_dictionary.o
+  CXX      src/tests/template_test_util_nothreads_test-template_test_util_test.o
+  CXXLD    template_test_util_nothreads_test
+  CXX      src/tests/template_dictionary_unittest-template_dictionary_unittest.o
+  CXXLD    template_dictionary_unittest
+  CXX      src/tests/template_dictionary_nothreads_unittest-template_dictionary_unittest.o
+  CXXLD    template_dictionary_nothreads_unittest
+  CXX      src/tests/template_modifiers_unittest-template_modifiers_unittest.o
+  CXXLD    template_modifiers_unittest
+  CXX      src/tests/template_modifiers_nothreads_unittest-template_modifiers_unittest.o
+  CXXLD    template_modifiers_nothreads_unittest
+  CXX      src/tests/template_setglobals_unittest-template_setglobals_unittest.o
+  CXXLD    template_setglobals_unittest
+  CXX      src/tests/template_setglobals_nothreads_unittest-template_setglobals_unittest.o
+  CXXLD    template_setglobals_nothreads_unittest
+  CXX      src/tests/template_cache_test-template_cache_test.o
+  CXXLD    template_cache_test
+  CXX      src/tests/template_cache_nothreads_test-template_cache_test.o
+  CXXLD    template_cache_nothreads_test
+  CXX      src/tests/template_unittest-template_unittest.o
+  CXXLD    template_unittest
+  CXX      src/tests/template_nothreads_unittest-template_unittest.o
+  CXXLD    template_nothreads_unittest
+  CXX      src/tests/template_regtest-template_regtest.o
+  CXXLD    template_regtest
+  CXX      src/tests/template_nothreads_regtest-template_regtest.o
+  CXXLD    template_nothreads_regtest
+  CXX      src/tests/htmlparser_test-htmlparser_cpp_test.o
+  CXXLD    htmlparser_test
+  CXX      src/tests/htmlparser_nothreads_test-htmlparser_cpp_test.o
+  CXXLD    htmlparser_nothreads_test
+  CC       src/tests/statemachine_test-statemachine_test.o
+  CC       statemachine_test-statemachine.o
+  CCLD     statemachine_test
+  CC       src/tests/generate_fsm_c_test.o
+  CCLD     generate_fsm_c_test
+echo 'prefix=/home/cangkui' > "libctemplate.pc".tmp
+echo 'exec_prefix='`echo '/home/cangkui' | sed 's@^/home/cangkui@${prefix}@'` >> "libctemplate.pc".tmp
+echo 'libdir='`echo '/home/cangkui/lib' | sed 's@^/home/cangkui@${exec_prefix}@'` >> "libctemplate.pc".tmp
+echo 'includedir='`echo '/home/cangkui/include' | sed 's@^/home/cangkui@${prefix}@'` >> "libctemplate.pc".tmp
+echo '' >> "libctemplate.pc".tmp
+echo 'Name: ctemplate' >> "libctemplate.pc".tmp
+echo 'Version: 2.3' >> "libctemplate.pc".tmp
+grep '^Summary:' ./packages/rpm/rpm.spec | sed s/^Summary:/Description:/ | head -n1 >> "libctemplate.pc".tmp
+grep '^URL: ' ./packages/rpm/rpm.spec >> "libctemplate.pc".tmp
+echo 'Requires:' >> "libctemplate.pc".tmp
+echo 'Libs: -L${libdir} -lctemplate' >> "libctemplate.pc".tmp
+echo 'Libs.private: -pthread -lpthread' >> "libctemplate.pc".tmp
+echo 'Cflags: -I${includedir}' >> "libctemplate.pc".tmp
+mv -f "libctemplate.pc".tmp "libctemplate.pc"
+grep -v Libs.private libctemplate.pc | sed s/-lctemplate/-lctemplate_nothreads/ > "libctemplate_nothreads.pc"
+make[1]: 离开目录“/data/cangkui/dspnew/trunk/thirdparty/ctemplate”
