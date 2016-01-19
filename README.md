@@ -24,5 +24,5 @@
 3.随后整个工作空间即建立起来，可以进行工作了:
 ```
   git clone https://github.com/cangyingzhijia/helloworld
-  blade run helloword:
+  blade run helloworld:helloworld
 ```
